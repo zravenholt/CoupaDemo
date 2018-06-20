@@ -1,0 +1,350 @@
+vi-VN:
+  activerecord:
+    attributes:
+      address:
+        account_types: Bảng xếp hạng tài khoản
+        address: Địa chỉ nhà
+        address_assignments: Bài tập địa chỉ
+        address_owner: Chủ sở hữu địa chỉ
+        address_owner_type: Loại chủ sở hữu địa chỉ
+        api_editable: API có thể chỉnh sửa
+        attention: Chú ý
+        causes_revision: Nguyên nhân sửa đổi
+        city: Thành phố
+        col_name: Tên Col
+        country: Quốc gia
+        defaults_from: Mặc định từ
+        duns: 'DUNS #'
+        field_name: Tên trường
+        internal: Nội bộ
+        invoice_headers: Tiêu đề hóa đơn
+        lat: Lat
+        lng: Lng
+        location_code: Mã vị trí
+        model: Mô hình
+        name: Tên
+        order_headers: Tiêu đề đơn đặt hàng
+        parameters: Thông số
+        position: Chức vụ
+        postal_code: Mã bưu điện
+        quote_request_lines: Dòng yêu cầu báo giá
+        remit_to_code: Mã đăng ký
+        required_for_approval: Yêu cầu phê duyệt
+        requisition_headers: Tiêu đề yêu cầu
+        requisition_line_templates: Mẫu dòng yêu cầu
+        show_in_catalog: Hiển thị trong danh mục
+        state: Tiểu bang
+        street: đường phố
+        street1: Dòng địa chỉ 1
+        street2: Địa chỉ 2
+        supplier_editable: Nhà cung cấp có thể chỉnh sửa
+        supplier_viewable: Nhà cung cấp có thể xem
+        suppliers: Các nhà cung cấp
+        tax_id: 'ID thuế #'
+        users: Người dùng
+        vat_country: Thuế / VAT Quốc gia
+        vat_number: Số thuế / VAT
+        warehouses: Kho
+      address_assignment:
+        addressable: Địa chỉ
+        addressable_type: Loại địa chỉ
+      bank_account:
+        account_number: Số tài khoản
+        address: Địa chỉ nhà
+        bank_form: Biểu mẫu ngân hàng
+        bank_form_content_type: Loại nội dung biểu mẫu ngân hàng
+        bank_form_file_name: Tên tệp biểu mẫu ngân hàng
+        bank_form_file_size: Kích thước tệp biểu mẫu ngân hàng
+        bank_form_updated_at: Đã cập nhật biểu mẫu ngân hàng tại
+        bank_name: Tên ngân hàng
+        bank_routing_number: Số tuyến / ABA)
+        banking_setup: Thiết lập ngân hàng
+        city: Thành phố
+        encrypted_account_number: Số tài khoản được mã hóa
+        encrypted_account_number_iv: Số tài khoản được mã hóa IV
+        encrypted_account_number_salt: Muối số tài khoản được mã hóa
+        encrypted_bank_routing_number: Số định tuyến ngân hàng được mã hóa
+        encrypted_bank_routing_number_iv: Số định tuyến ngân hàng được mã hóa IV
+        encrypted_bank_routing_number_salt: Mảng định tuyến ngân hàng được mã hóa
+        encrypted_iban: IBAN được mã hóa
+        encrypted_iban_iv: Mã hóa IBAN IV
+        encrypted_iban_salt: Muối IBAN được mã hóa
+        encrypted_sort_code: Mã phân loại được mã hóa
+        encrypted_sort_code_iv: Mã phân loại được mã hóa IV
+        encrypted_sort_code_salt: Muối mã phân loại được mã hóa
+        encrypted_swift_number: Số Swift được mã hóa
+        encrypted_swift_number_iv: Số Swift đã mã hóa IV
+        encrypted_swift_number_salt: Muối Swift được mã hóa
+        iban: IBAN
+        name_on_account: Tên trên tài khoản
+        phone_fax: Số fax
+        phone_number: Điện thoại
+        remit_to_address: Gửi lại địa chỉ
+        sort_code: Sort code
+        state: Tiểu bang
+        swift_no: Nhanh chóng không.
+      catalog:
+        end_date: Hết hạn
+        enterprise_catalog: Danh mục doanh nghiệp
+        name: Tên
+        start_date: Bắt đầu
+        status: Trạng thái
+      contact:
+        api_editable: API có thể chỉnh sửa
+        causes_revision: Nguyên nhân sửa đổi
+        col_name: Tên Col
+        defaults_from: Mặc định từ
+        duns: 'DUNS #'
+        email: E-mail
+        field_name: Tên trường
+        first_name: Tên đầu tiên
+        internal: Nội bộ
+        last_name: Họ
+        model: Mô hình
+        name: Tên
+        phone_fax: Số fax
+        phone_mobile: Điện thoại di động
+        phone_work: Điện thoại công việc
+        photo: hình chụp
+        position: Chức vụ
+        required_for_approval: Yêu cầu phê duyệt
+        show_in_catalog: Hiển thị trong danh mục
+        supplier: Nhà cung cấp
+        supplier_editable: Nhà cung cấp có thể chỉnh sửa
+        supplier_id: Nhà cung cấp
+        supplier_viewable: Nhà cung cấp có thể xem
+        tax_id: 'ID thuế #'
+      country:
+        code: Mã số
+        name: Tên
+        position: Chức vụ
+      currency:
+        code: Mã số
+        enabled_flag: Đã bật
+        min_accountable_unit: Min Đơn vị chịu trách nhiệm
+        name: Tên
+        symbol: Ký hiệu
+      customer:
+        api_key: Mã API
+        company_name: Tên công ty
+        cxml_domain: Miền CXML
+        cxml_identity: Nhận dạng CXML
+        cxml_protocol: Giao thức CXML
+        cxml_secret: Bí mật CXML
+        cxml_supplier_domain: Tên miền nhà cung cấp CXML
+        cxml_supplier_identity: Danh tính nhà cung cấp CXML
+        cxml_url: URL CXML
+        duns: 'DUNS #'
+        enter_response_key: Nhập khóa trả lời
+        enterprise_auth_type: Loại xác thực doanh nghiệp
+        enterprise_supplier_id: ID nhà cung cấp doanh nghiệp
+        enterprise_supplier_secret: Nhà cung cấp doanh nghiệp
+        instance_url: URL thể hiện
+        logo_content_type: Loại nội dung logo
+        logo_file_name: Tên tệp biểu trưng
+        logo_file_size: Kích thước tệp biểu trưng
+        po_email: Email PO
+        po_method: Phương thức đặt mua hàng
+        profile_background_img: Hình ảnh nền hồ sơ
+        supplier_name: tên đệm
+        supports_new_catalogs: Hỗ trợ Catalog mới
+        tax_id: 'ID thuế #'
+      data_source:
+        error_text: Văn bản lỗi
+        file: Tập tin
+        file_file_name: Tên tệp
+        file_file_size: Kích thước tập tin
+        job_key: Khóa công việc
+        lock_version: Phiên bản lock
+        owner: Chủ nhân
+        owner_type: Loại chủ sở hữu
+        progress: phát triển
+        progress_metadata: Siêu dữ liệu tiến trình
+        queue_opts: Tùy chọn hàng đợi
+        result_text: Văn bản kết quả
+        return_url: URL trả về
+        source_for: Nguồn
+        upload_errors_count: Số lỗi tải lên
+      invitation:
+        contact: Tiếp xúc
+        email: E-mail
+        email_text: Văn bản email
+        enter_response_key: Nhập khóa trả lời
+        enterprise_api_key: Khóa API doanh nghiệp
+        enterprise_duns: 'Doanh nghiệp DUNS #'
+        enterprise_instance_url: URL trường hợp doanh nghiệp
+        enterprise_supplier_id: ID nhà cung cấp doanh nghiệp
+        enterprise_supplier_name: Tên nhà cung cấp doanh nghiệp
+        enterprise_tax_id: 'ID thuế doanh nghiệp #'
+        first_name: Tên đầu tiên
+        from_email: Từ email
+        invite_code: Mã mời
+        last_name: Họ
+        perms_and_access: Quyền và quyền truy cập
+        source: Nguồn
+        supplier_name: Công ty
+      isic_classification:
+        classification: Phân loại
+        division: Bộ phận
+        isic_group: Tập đoàn ISIC
+        section: Phần
+      item:
+        description: Sự miêu tả
+        lead_time: Thời gian dẫn
+        manufacturer: nhà chế tạo
+        name: Tên
+        part_number: Một phần số
+        picture_file_name: Tên tệp hình ảnh
+        picture_file_size: Kích thước tệp hình ảnh
+        price: Giá bán
+        unspsc_classification: Phân loại UNSPSC
+      login_token:
+        token: Mã thông báo
+      notification_preference:
+        is_done: Hoan thanh
+        notifier: Trình thông báo
+        notifier_data: Dữ liệu thông báo
+        notifier_type: Loại Trình thông báo
+      notifier_event:
+        expiration_date: Ngày hết hạn
+        reset_code: Đặt lại mã
+      password:
+        email: E-mail
+        password: Mật khẩu
+        password_confirmation: Xác nhận mật khẩu
+        user: Người dùng
+      po_method:
+        cxml_domail: Miền
+        cxml_identity: Danh tính
+        cxml_protocol: Giao thức
+        cxml_secret: Bí mật CXML
+        cxml_supplier_domain: Tên miền của nhà cung cấp
+        cxml_supplier_identity: Danh tính nhà cung cấp
+        cxml_url: URL
+        email: E-mail
+        supplier: Nhà cung cấp
+      punchout_configuration:
+        buyer_domain: Miền của người mua
+        buyer_identity: Nhận dạng người mua
+        customer: khách hàng
+        description: Sự miêu tả
+        enterprise_punchout_side_id: ID trang web loại bỏ doanh nghiệp
+        name: Tên
+        protocol: Giao thức
+        punchout_url: URL
+        shared_secret: Đã chia sẻ bí mật
+        supplier_domain: Tên miền của nhà cung cấp
+        supplier_identity: Danh tính nhà cung cấp
+      registered_company:
+        name: Tên công ty
+        sole_registration_code: Mã đăng ký duy nhất
+      remit_to_address:
+        assigned: Giao
+        can_be_remit_to: Sử dụng địa chỉ này để chuyển tiền đến
+        can_be_ship_from: Sử dụng địa chỉ này cho Ship From
+        city: Thành phố
+        contact_firstname: Tên đầu tiên
+        contact_lastname: Họ
+        country: Quốc gia
+        disclosure_content_1: Nội dung tiết lộ 1
+        disclosure_content_2: Nội dung tiết lộ 2
+        disclosure_content_3: Nội dung tiết lộ 3
+        disclosure_header_1: Tiết lộ tiêu đề 1
+        disclosure_header_2: Tiết lộ tiêu đề 2
+        disclosure_header_3: Tiết lộ tiêu đề 3
+        email: E-mail
+        name: Tên
+        phone_fax: Số fax
+        phone_mobile: Điện thoại di động
+        phone_work: Điện thoại công việc
+        postal_code: Mã bưu điện
+        preferred_language: Ngôn ngữ ưa thích
+        remit_to_code: Mã đăng ký
+        remit_to_name: Tên chuyển tiền
+        state: Tiểu bang
+        street: đường phố
+        street1: Dòng địa chỉ 1
+        street2: Địa chỉ 2
+        website: Trang mạng
+      setup:
+        key: Chìa khóa
+        value: Giá trị
+      supplier:
+        alibaba_url: URL Alibaba
+        commodity: Hàng hóa
+        commodity_id: Hàng hóa
+        corporate_url: URL công ty
+        description: Trong khoảng
+        duns: 'DUNS #'
+        facebook_url: URL Facebook
+        industry: Công nghiệp
+        invoice_matching_level: Mức so khớp hóa đơn
+        linkedin_url: URL LinkedIn
+        logo: Logo
+        logo_content_type: Loại nội dung logo
+        logo_file_name: Tên tệp biểu trưng
+        logo_file_size: Kích thước tệp biểu trưng
+        logo_url: URL biểu trưng
+        name: Tên
+        number_of_employees: Nhân viên
+        owner: Chủ nhân
+        parent: Cha mẹ
+        parent_id: Cha mẹ
+        payment_term: Chính sách thanh toán
+        paymnet_term_id: Chính sách thanh toán
+        po_email: Email PO
+        po_method: Phương thức PO
+        primary_address: Địa chỉ chính
+        profile_background_img: Hình ảnh nền hồ sơ
+        shipping_term: Hạn vận chuyển
+        shipping_term_id: Hạn vận chuyển
+        short_description: Mô tả ngắn
+        status: Trạng thái
+        storefront_url: URL mặt tiền cửa hàng
+        tax_id: 'ID thuế #'
+        twitter_url: URL Twitter
+        website: Trang mạng
+        year_established: năm thành lập
+      supplier_merge:
+        defer_to_target: Trì hoãn mục tiêu
+        reject_note: Từ chối ghi chú
+        request_note: chú thích
+        target_supplier: Nhà cung cấp mục tiêu
+      tax_registration:
+        disclosure: Tiết lộ
+        local_tax_number: Số thuế địa phương
+        prefix: Tiếp đầu ngữ
+        skip_tax_number: Tôi muốn sử dụng số này làm số thuế địa phương
+        tax_country: Nước thuế
+        tax_number: ID VAT
+      tax_registration_vat:
+        tax_number: ID VAT
+      unspsc_classification:
+        commodity: Hàng hóa
+      upload_error:
+        data_source: Nguồn dữ liệu
+        field: Cánh đồng
+        field_errors: Lỗi trường
+        first_column: Cột đầu tiên
+        row: Hàng
+        value: Giá trị
+      user:
+        crypted_password: Mật khẩu được mã hóa
+        current_password: Mật khẩu hiện tại
+        email: E-mail
+        password: Mật khẩu
+        password_confirmation: Xác nhận mật khẩu
+        phone_mobile: Số điện thoại
+        remember_token: Nhớ mã thông báo
+        remember_token_expires_at: Ghi ngày hết hạn mã thông báo
+        salt: Muối
+      user_notification:
+        notification: Thông báo
+    errors:
+      messages:
+        invalid_field: không có hiệu lực
+        not_found: Hồ sơ không tồn tại
+        record_invalid: 'Xác thực không thành công: %{errors}'
+        restrict_dependent_destroy:
+          many: Không thể xóa bản ghi vì phụ thuộc %{record} tồn tại
+          one: Không thể xóa bản ghi vì %{record} phụ thuộc tồn tại
